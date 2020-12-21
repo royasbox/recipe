@@ -1,0 +1,57 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(104, 154, 192);
+    color: rgb(243, 199, 4);
+	text-align: center;
+	padding: 40px;
+	margin: 0 auto;
+}
+
+.recipe {
+    font-size: 1.2em;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.ingredients li {
+    list-style-type: none;
+}
+
+.steps li {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.info {
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+footer {
+    color: black;
+    margin-top: 50px;
+}
+
+.cookware {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+    
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .recipe {
+        display: inline;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+}
